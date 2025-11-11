@@ -1,5 +1,4 @@
 --[[
-
 =====================================================================
 ==================== READ THIS BEFORE CONTINUING ====================
 =====================================================================
@@ -58,7 +57,7 @@ Kickstart Guide:
 
   Next, run AND READ `:help`.
     This will open up a help window with some basic information
-    about reading, navigating and searching the builtin help documentation.
+   about reading, navigating and searching the builtin help documentation.
 
     This should be the first place you go to look when you're stuck or confused
     with something. It's one of my favorite Neovim features.
@@ -248,7 +247,7 @@ rtp:prepend(lazypath)
 require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
-
+  { 'petertriho/nvim-scrollbar', opts = {} },
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
